@@ -120,13 +120,7 @@ Puedes explicarlo así:
 |------------------------------|-----------|-----------|
 | Authorization: token         |   ❌      |   ❌      |
 | Authorization: Bearer token  |   ✅      |   ✅     |
-| -----------------------------------------------------|
 
-Forma	                | Correcto	| Estándar
-
-Authorization: token	    ❌	        ❌
-
-Authorization: Bearer token	✅	        ✅
 
 # 🚀 Resumen claro
 
