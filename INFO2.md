@@ -116,6 +116,12 @@ Puedes explicarlo así:
 
 🆚 Sin Bearer vs Con Bearer
 
+|          Forma               | Correcto  | Estándar  |
+|------------------------------|-----------|-----------|
+| Authorization: token         |   ❌      |   ❌      |
+| Authorization: Bearer token  |   ✅      |   ✅     |
+| -----------------------------------------------------|
+
 Forma	                | Correcto	| Estándar
 
 Authorization: token	    ❌	        ❌
