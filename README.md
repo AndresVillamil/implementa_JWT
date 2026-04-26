@@ -1,4 +1,7 @@
-📘 README.md — Autenticación con JWT (Node.js + Express)
+## 📘 README.md — Autenticación con JWT (Node.js + Express)
+
+Inicia la aplicación con npm run dev
+
 🧠 Objetivo
 
 Entender cómo funciona JWT (JSON Web Token) a través de un backend simple en Node.js, aplicando:
@@ -15,7 +18,7 @@ JWT (JSON Web Token) es un mecanismo de autenticación que permite:
 ✔ Proteger rutas
 ✔ Evitar sesiones en servidor (stateless)
 
-🧩 Estructura de un JWT
+# 🧩 Estructura de un JWT
 
 Un token tiene 3 partes:
 
