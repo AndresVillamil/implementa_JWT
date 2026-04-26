@@ -102,20 +102,24 @@ export const validateToken = (req, res, next) => {
 ❌ No necesita contraseña
 
 🛡️ Por eso debes:
-Usar HTTPS (obligatorio)
-Evitar localStorage (en apps críticas)
-Usar expiración corta
-Implementar refresh tokens
 
-🧠 Concepto clave (nivel entrevista)
+- Usar HTTPS (obligatorio)
+- Evitar localStorage (en apps críticas)
+- Usar expiración corta
+- Implementar refresh tokens
+
+# 🧠 Concepto clave (nivel entrevista)
 
 Puedes explicarlo así:
 
 “Bearer es un esquema de autenticación HTTP donde el cliente envía un token en el header Authorization. El servidor asume que quien porta el token es quien tiene acceso, por lo que la seguridad depende de proteger ese token.”
 
 🆚 Sin Bearer vs Con Bearer
+
 Forma	                | Correcto	| Estándar
+
 Authorization: token	    ❌	        ❌
+
 Authorization: Bearer token	✅	        ✅
 
 # 🚀 Resumen claro
